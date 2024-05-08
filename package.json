@@ -1,0 +1,22 @@
+{
+  "dependencies": {
+    "ejs": "^3.1.10",
+    "express": "^4.19.2",
+    "mysql2": "^3.9.7"
+  },
+  "name": "apadrinhacao",
+  "version": "1.0.0",
+  "description": "projeto-padrinhacao",
+  "main": "app.js",
+  "devDependencies": {},
+  "scripts": {
+    "start": "node app"
+  },
+  "keywords": [
+    "NODEJS-HTML-MYSQL"
+  ],
+  "author": "GUILHERME",
+  "license": "MIT"
+}
+
+
