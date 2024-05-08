@@ -214,6 +214,8 @@ body {
 
 .tabledb{
   margin: 10rem;
+  
+
 }
 
 .cadastra-padrinho{
@@ -368,6 +370,10 @@ body {
     #call-area p, #call-area #call-btn {
       font-size: 16px;
     }
+
+    .tabledb {
+      width: 90%;
+    }
   
   }
   
@@ -412,5 +418,7 @@ body {
       border: none;
       margin-bottom: 0;
     }
-
+    .tabledb{
+      width: 100%;
+    }
   }
