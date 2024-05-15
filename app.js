@@ -76,12 +76,13 @@ app.post('/cadastrar', (req, res) => {
               return;
           }
           console.log('Usuário cadastrado com sucesso');
-          res.send('Usuário cadastrado com sucesso');
+          // Enviar a resposta com mensagem e script combinados
+          res.send('Usuário cadastrado com sucesso<script>alert("Usuário cadastrado com sucesso"); window.location.href = "/";</script>');
+
+          
       });
   });
 });
-
-
 
 
   const port = 8080;

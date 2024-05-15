@@ -220,8 +220,11 @@ body {
 
 .cadastra-padrinho{
   text-align: center;
+  padding: 2rem;
   }
-
+.cadastra-padrinho h3{
+  padding: 3rem;
+}
 
 /* .btn-warning{
     width: 200px;
