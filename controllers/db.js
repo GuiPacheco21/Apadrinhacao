@@ -6,9 +6,9 @@ const mysql = require('mysql2');
 const app = express();
 
 const conexao = mysql.createConnection({
-    host: 'apadrinhacao.mysql.database.azure.com',
-    user: 'guilherme',
-    password: 's!apadrinhacao2024*',
+    host: 'apadrinhacaodb.mysql.database.azure.com',
+    user: 'gpacheco1150',
+    password: 'hVD1hnVU0yIjyvJZP0jfVuscp3qNZTbZ',
     database: 'apadrinhacaobd',
     ssl: {
         // Aqui você pode especificar outras opções de SSL, se necessário
