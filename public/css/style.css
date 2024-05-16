@@ -215,6 +215,7 @@ body {
 .tabledb{
   margin: 10rem;
   
+  
 
 }
 
@@ -375,7 +376,7 @@ body {
     }
 
     .tabledb {
-      width: 90%;
+      width: auto;
     }
   
   }
@@ -423,5 +424,6 @@ body {
     }
     .tabledb{
       width: 100%;
+      display: block;
     }
   }
