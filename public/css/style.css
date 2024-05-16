@@ -375,11 +375,19 @@ body {
       font-size: 16px;
     }
 
-    .tabledb {
-      width: auto;
-      display: block;
-    }
-  
+    .tabledb .container {
+      max-width: 100%; /* Ocupar toda a largura disponível */
+      padding: 0 15px; /* Adicionar algum espaço nas laterais */
+  }
+
+  .tabledb form .form-group {
+    margin-bottom: 15px; /* Adicionar espaço entre os campos */
+  }
+
+  .tabledb form .btn {
+    width: 100%; /* Ocupar toda a largura disponível */
+  }
+
   }
   
   
