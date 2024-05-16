@@ -377,6 +377,7 @@ body {
 
     .tabledb {
       width: auto;
+      display: block;
     }
   
   }
