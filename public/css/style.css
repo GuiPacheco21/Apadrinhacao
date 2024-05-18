@@ -212,20 +212,66 @@ body {
     text-decoration: none;
 }
 
-.tabledb{
-  margin: 10rem;
-  
-  
-
+.tabledb {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #f0f0f0; /* Exemplo de cor de fundo */
 }
 
-.cadastra-padrinho{
+.container {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+  width: 100%;
+  max-width: 400px; /* Limita a largura máxima */
+  box-sizing: border-box;
+}
+
+.text-center {
   text-align: center;
-  padding: 2rem;
-  }
-.cadastra-padrinho h3{
-  padding: 3rem;
 }
+
+.mb-4 {
+  margin-bottom: 16px;
+}
+
+.form-group {
+  margin-bottom: 15px;
+}
+
+.form-control {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-sizing: border-box;
+}
+
+.form-check-label {
+  margin-left: 4px;
+}
+
+.btn {
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  background-color: #007bff;
+  color: #fff;
+  cursor: pointer;
+}
+
+.btn-primary:hover {
+  background-color: #0056b3;
+}
+
+.hidden {
+  display: none;
+}
+
+
 
 /* .btn-warning{
     width: 200px;
@@ -377,7 +423,9 @@ body {
 
     .tabledb .container {
       max-width: 100%; /* Ocupar toda a largura disponível */
-      padding: 0 15px; /* Adicionar algum espaço nas laterais */
+      padding: 0; /* Adicionar algum espaço nas laterais */
+      margin: 0;
+      
   }
 
   .tabledb form .form-group {
