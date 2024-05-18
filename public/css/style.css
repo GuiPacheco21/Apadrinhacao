@@ -212,6 +212,14 @@ body {
     text-decoration: none;
 }
 
+.cadastra-padrinho{
+  text-align: center;
+  margin: 20px;
+}
+
+.cadastra-padrinho a{
+  margin-top: 30px;
+  }
 .tabledb {
   display: flex;
   justify-content: center;
@@ -225,9 +233,10 @@ body {
   padding: 20px;
   border-radius: 10px;
   box-shadow: 0 4px 8px rgba(0,0,0,0.1);
-  width: 100%;
+  width: 100%; /* Ajusta para telas menores */
   max-width: 400px; /* Limita a largura máxima */
   box-sizing: border-box;
+  margin: 0 20px; /* Adiciona margem lateral */
 }
 
 .text-center {
@@ -250,6 +259,10 @@ body {
   box-sizing: border-box;
 }
 
+.form-check-input {
+  margin-top: 0.3rem;
+}
+
 .form-check-label {
   margin-left: 4px;
 }
@@ -261,6 +274,7 @@ body {
   background-color: #007bff;
   color: #fff;
   cursor: pointer;
+  width: 100%; /* Faz o botão ocupar a largura total do formulário */
 }
 
 .btn-primary:hover {
@@ -373,114 +387,107 @@ body {
   }
   
   /* responsive */
-  @media(max-width: 768px) {
-    
-    /* geral */
+  @media (max-width: 768px) {
+    /* Geral */
     .container {
-      padding: 20px 0;
+        padding: 20px 10px;
+        max-width: 100%;
     }
-    
-    /* slider */
+
+    /* Slider */
     #mainSlider .carousel-inner, #mainSlider .carousel-item {
-      height: auto;
+        height: auto;
     }
-  
+
     #mainSlider .carousel-caption h2 {
-      font-size: 28px;
+        font-size: 28px;
     }
-  
+
     #mainSlider .carousel-caption p {
-      font-size: 18px;
-      margin-bottom: 40px;
+        font-size: 18px;
+        margin-bottom: 40px;
     }
-  
+
     .carousel-caption {
-      left: 10%;
-      right: 10%;
+        left: 10%;
+        right: 10%;
     }
-    
-    /* about */
+
+    /* About */
     #about-area img {
-      margin-top: 100px;
+        margin-top: 100px;
     }
-    
-  
+
     #email-input {
-      width: 70%;
+        width: 70%;
     }
-  
+
     #call-area {
-      margin-top: 30px;
+        margin-top: 30px;
     }
-  
+
     #call-area .container {
-      padding: 30px;
+        padding: 30px;
     }
-  
+
     #call-area p, #call-area #call-btn {
-      font-size: 16px;
+        font-size: 16px;
     }
 
     .tabledb .container {
-      max-width: 100%; /* Ocupar toda a largura disponível */
-      padding: 0; /* Adicionar algum espaço nas laterais */
-      margin: 0;
-      
-  }
+        padding: 10px;
+        margin: 0 10px;
+    }
 
-  .tabledb form .form-group {
-    margin-bottom: 15px; /* Adicionar espaço entre os campos */
-  }
+    .tabledb form .form-group {
+        margin-bottom: 15px;
+    }
 
-  .tabledb form .btn {
-    width: 100%; /* Ocupar toda a largura disponível */
-  }
+    .tabledb form .btn {
+        width: 100%;
+    }
+}
 
-  }
-  
-  
-  @media(max-width: 425px) {
-  
-    /* slider */
+@media (max-width: 425px) {
+    .container {
+        padding: 10px;
+    }
+
+    /* Slider */
     #mainSlider {
-      margin-top: 90px;
+        margin-top: 90px;
     }
-  
+
     #mainSlider .carousel-caption {
-      top: 5%;
+        top: 5%;
     }
-  
+
     #mainSlider .carousel-caption h2 {
-      font-size: 18px;
-      margin-bottom: 40px;
+        font-size: 18px;
+        margin-bottom: 40px;
     }
-  
+
     #mainSlider .carousel-caption p {
-      display: none;
+        display: none;
     }
-  
+
     .carousel-caption .main-btn {
-      
-      font-size: 14px;
+        font-size: 14px;
     }
-  
-    /* about */
+
+    /* About */
     .main-title {
-      font-size: 30px;
+        font-size: 30px;
     }
-  
+
     #about-area img {
-      margin-top: 0;
-      margin-bottom: 30px;
+        margin-top: 0;
+        margin-bottom: 30px;
     }
-  
-    /* contact */
+
+    /* Contact */
     .contact-box {
-      border: none;
-      margin-bottom: 0;
+        border: none;
+        margin-bottom: 0;
     }
-    .tabledb{
-      width: 100%;
-      display: block;
-    }
-  }
+}
